@@ -1,0 +1,13 @@
+<center><h1> Poll List  </h1></center>
+
+
+<% @polls.each do |poll| %>
+
+  <%= link_to poll.question , :controller => 'polls' , :action => 'show', :id => poll.id  %> 
+<br>
+
+<% end %>
+<center> <br><%= link_to "LOGOUT" , :action => 'logout' %> | <%= link_to "BACK" , :action => 'first_page' %>
+</center>
+
+

@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  email: MyString
+  opt_count1: 1
+  opt_count2: 1
+  opt_count3: 1
+  poll_id: 1
+
+two:
+  email: MyString
+  opt_count1: 1
+  opt_count2: 1
+  opt_count3: 1
+  poll_id: 1

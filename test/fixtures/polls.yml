@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  question: MyString
+  opt1: MyString
+  opt2: MyString
+  opt3: MyString
+  opt_count1: 1
+  opt_count2: 1
+  opt_count3: 1
+
+two:
+  question: MyString
+  opt1: MyString
+  opt2: MyString
+  opt3: MyString
+  opt_count1: 1
+  opt_count2: 1
+  opt_count3: 1

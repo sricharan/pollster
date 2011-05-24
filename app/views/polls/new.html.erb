@@ -1,0 +1,35 @@
+<center><h1> Create a New Poll </h1>
+
+<b><% form_for(@poll) do |f| %>
+  <br/>
+  <%= f.label :question %>
+  <br/>
+  <%= f.text_area :question %>
+  <br/>
+  <br/>
+  <%= f.label "First Option" %>
+  <br/>
+  <%= f.text_field :opt1 %>
+  <br/>
+  <br/>
+  <%= f.label "Second Option" %>
+  <br/>
+  <%= f.text_field :opt2 %>
+  <br/>
+  <br/>
+  <%= f.label "Third Option" %>
+  <br/>
+  <%= f.text_field :opt3 %>
+  <br/>
+  <br/>
+   <%= f.submit %>
+
+<% end %>
+</b>
+<br/>
+
+
+
+
+</center>
+

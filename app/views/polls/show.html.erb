@@ -1,0 +1,21 @@
+
+
+<% form_for @answer   do |f| %>
+  <%= @answer.email = session[:email] %>
+ 
+ 
+  <br> Question : <%= @poll.question %> 
+  <br>
+
+	<%= @poll.opt1 %> : <%= f.radio_button :opt,  '1'%><br>
+	<%= @poll.opt2 %> : <%= f.radio_button :opt,  '2'%><br>
+	<%= @poll.opt3 %> : <%= f.radio_button :opt,  '3'%><br>
+
+        <%= f.submit %> 
+
+<% end %>
+
+
+<br>
+<br><br>
+<center><%= link_to  'Back' , :controller => 'polls' , :action => 'index' %> </center> 
